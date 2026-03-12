@@ -6,8 +6,6 @@
 	<artifactId>HocJavaWebUtilities</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>HocJavaWebUtilities</name>
-	<description>Utilities for Java Web projects</description>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -22,4 +20,18 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/trinhvanhoan/hoc-java-web-utilities</url>
+		</repository>
+	</distributionManagement>
+	
+	<scm>
+		<connection>scm:git:git://github.com/trinhvanhoan/hoc-java-web-utilities.git</connection>
+		<developerConnection>scm:git:ssh://github.com/trinhvanhoan/hoc-java-web-utilities.git</developerConnection>
+		<url>https://github.com/trinhvanhoan/hoc-java-web-utilities</url>
+	</scm>
 </project>
