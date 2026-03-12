@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.github.trinhvanhoan</groupId>
+	<groupId>hocjava.web.util</groupId>
 	<artifactId>HocJavaWebUtilities</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
@@ -20,18 +20,4 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/trinhvanhoan/hoc-java-web-utilities</url>
-		</repository>
-	</distributionManagement>
-	
-	<scm>
-		<connection>scm:git:git://github.com/trinhvanhoan/hoc-java-web-utilities.git</connection>
-		<developerConnection>scm:git:ssh://github.com/trinhvanhoan/hoc-java-web-utilities.git</developerConnection>
-		<url>https://github.com/trinhvanhoan/hoc-java-web-utilities</url>
-	</scm>
 </project>
